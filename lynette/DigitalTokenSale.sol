@@ -20,8 +20,8 @@ contract DigitalTokenSale is Crowdsale, MintedCrowdsale {
 
 contract DigitalTokenSaleDeployer {
 
-    address public digital_sale_address;
-    address public digital_address;
+    address public token_sale_address;
+    address public token_address;
 
     constructor(
         string memory name,
@@ -32,14 +32,15 @@ contract DigitalTokenSaleDeployer {
     {
         // create the DigitalToken and keep its address handy
         DigitalToken token = new DigitalToken(name, symbol, 0);
-        digital_address = address(token);
+        token_address = address(token);
 
         // create the DigitalTokenSale and tell it about the token
-        DigitalTokenSale digital_sale = new DigitalTokenSale(1, wallet, token);
-        digital_sale_address = address(digital_sale);
+        DigitalTokenSale token_sale = new DigitalTokenSale(1, wallet, token);
+        token_sale_address = address(token_sale);
+
 
         // make the DigitalTokenSale contract a minter, then have the DigitalTokenSaleDeployer renounce its minter role
-        token.addMinter(digital_sale_address);
+        token.addMinter(token_sale_address);
         token.renounceMinter();
     }
 }
