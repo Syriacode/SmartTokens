@@ -1,19 +1,17 @@
-pragma solidity ^0.5.0;
+pragma solidity ^0.8.0;
 
 import "./DigitalToken.sol";
-import "./DigitalTokenERC20.sol";
-import "./DigitalTokenMinted.sol";
-import "./DigitalTokenSale.sol";
+/// import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20Detailed.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
+
 
 contract EquityCertificateCreator {
-    /// @title EquityCertificateCreator
-    EquityCertificate[] public certificates;
+    /// EquityCertificate public certificates;
     string public private_equity_firm;
     string public investor;
     string public asset_type;
     string public asset_worth;
-    string public location;
-    string public regulating_authority = "U.S.",
+    string public regulating_authority;
       
     address payable public wallet;
 
@@ -21,7 +19,7 @@ contract EquityCertificateCreator {
         owner = msg.sender;
     }
     
-    event LogNewCertificateCreated(EquityCertificate);
+     /// event LogNewCertificateCreated(EquityCertificate);
     
     /// Owner/Sender creates Equity Certificate for the Beneficiary
     modifier onlyOwner {
@@ -32,9 +30,9 @@ contract EquityCertificateCreator {
     /** 
         @dev function is called every time someone wants to register a new equity certificate
     **/
-    function createNewCertificate(
-        string memory private_equity_firm, string memory investor, string memory asset_type, string memory asset_worth, string memory location
-        ) public payable {
+    function createNewCertificate(string memory private_equity_firm,  string memory investor, string memory asset_type, string memory asset_worth, string memory regulating_authority) 
+        
+        public payable {
         
         // new certificate creation
         EquityCertificate newCertificate = new EquityCertificate(
@@ -42,11 +40,12 @@ contract EquityCertificateCreator {
             investor = digital_sale_address,
             asset_type = DigitalToken,
             asset_worth = DigitalTokenSale,
-            location = regulating_authority)
+            regulating_authority = "US"
+            );
         
-        // we save the address in array
-        certificates.push(newCertificate);
+        /// we save the address in array
+         certificates.push(createNewCertificate);
         }
-        
+
 }
         
