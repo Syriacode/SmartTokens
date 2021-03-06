@@ -14,7 +14,7 @@ contract DigitalTokenSale is Crowdsale, MintedCrowdsale {
         Crowdsale(rate, wallet, token)
         public
     {
-        // constructor can stay empty
+        // constructor can stay empty since DigitalToken.sol, DigitalERC20.sol, and DigitalTokenMinted.sol have been imported.
     }
 }
 
