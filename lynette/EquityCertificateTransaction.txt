@@ -1,0 +1,13 @@
+ [block:9803490 txIndex:9] from: 0x950...3B37Cto: EquityCertificateCreator.(constructor)value: 0 weidata: 0x608...00000logs: 2hash: 0x83c...8f18e
+ status	true Transaction mined and execution succeed
+ transaction hash	0x83c3c1cf6faf08933035631185d059e3658df8af680e2c346c4d73461ca8f18e 
+ from	0x950A17ba3C60658114AF43C4a0839669b673B37C 
+ to	EquityCertificateCreator.(constructor) 
+ gas	2030421 gas 
+ transaction cost	2030421 gas 
+ hash	0x83c3c1cf6faf08933035631185d059e3658df8af680e2c346c4d73461ca8f18e 
+ input	0x608...00000 
+ decoded input	{ "address _owner": "0x950A17ba3C60658114AF43C4a0839669b673B37C", "string _name": "0x06A16FE19aE657ec9b862a298995C79e1dDAB878", "string _symbol": "DIGITAL" } 
+ decoded output	 - 
+ logs	[ { "from": "0x4aF4cc54b5cDf49cea67FAE5337cc6a3562ea706", "topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0", "event": "OwnershipTransferred", "args": { "0": "0x0000000000000000000000000000000000000000", "1": "0x950A17ba3C60658114AF43C4a0839669b673B37C", "previousOwner": "0x0000000000000000000000000000000000000000", "newOwner": "0x950A17ba3C60658114AF43C4a0839669b673B37C" } }, { "from": "0x4aF4cc54b5cDf49cea67FAE5337cc6a3562ea706", "topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0", "event": "OwnershipTransferred", "args": { "0": "0x950A17ba3C60658114AF43C4a0839669b673B37C", "1": "0x950A17ba3C60658114AF43C4a0839669b673B37C", "previousOwner": "0x950A17ba3C60658114AF43C4a0839669b673B37C", "newOwner": "0x950A17ba3C60658114AF43C4a0839669b673B37C" } } ]  
+ value	0 wei 
