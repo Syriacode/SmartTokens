@@ -109,13 +109,13 @@ The `DigitalTokenSale` contract is set as a minter and then set to renounce the 
 <br>
 
 ## **Discussion**
-The pros for using blockchain technology and smart contracts increases the private equity firm's access to raise capital and provides investors with direct access to purchase equity in the firm.  
+The advantages to using blockchain technology and smart contracts increases the private equity firm's access to raise capital and provides investors with direct access to purchase equity in the firm.  
 
-The cons identified during the project are:
+The disadvantages identified during the project are:
     
-1) Blockchain has limitations to the amount of data that can be stored.  For a small firm the number of transactions are small enough to benefit from using the steps provided in this project.  For larger firms with an increased number of transactions, we explored the option of using IPFS to store large amounts of data and certificates including the benefits that IPFS offers to provide verifiability on behalf of the firm.  
+1) Limitations to the amount of data that can be stored on the blockchain.  For a small firm the number of transactions are small enough to benefit from using the steps provided in this project.  For larger firms with an increased number of transactions, we explored the option of using IPFS to store large amounts of data and certificates including the benefits that IPFS offers to provide verifiability on behalf of the firm.  
 
-2) There is an increase in gas fees to the firm each time tokens and certificates are issued.  While there are various methods that can be utilized to help lower gas fees, we specifically identified that reducing the storage and size of variables used in writing smart contracts can help to reduce gas costs.  
+2) The cost of gas fees to the firm each time tokens and certificates are issued.  While there are various methods that can be utilized to help lower gas fees, we specifically identified that reducing the storage and size of variables used in writing smart contracts can help to reduce gas costs.  
 
 <br>
 
