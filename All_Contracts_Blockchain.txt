@@ -1,0 +1,114 @@
+The following libraries are accessible:
+web3 version 1.0.0
+ethers.js
+swarmgw
+
+remix (run remix.help() for more info)
+
+creation of DigitalToken pending...
+
+https://ropsten.etherscan.io/tx/0xdaace6545aa6d1abe182e903ce89969e3550683c68fe99d4f31f74e0176258a9
+ 
+ [block:9806370 txIndex:9] from: 0x06A...AB878to: DigitalToken.(constructor)value: 0 weidata: 0x608...00000logs: 2hash: 0xdaa...258a9
+
+call to DigitalToken.totalSupply
+ 
+CALL
+ [call] from: 0x06A16FE19aE657ec9b862a298995C79e1dDAB878to: DigitalToken.totalSupply()data: 0x181...60ddd
+
+call to DigitalToken.symbol
+ 
+CALL
+ [call] from: 0x06A16FE19aE657ec9b862a298995C79e1dDAB878to: DigitalToken.symbol()data: 0x95d...89b41
+
+call to DigitalToken.name
+ 
+CALL
+ [call] from: 0x06A16FE19aE657ec9b862a298995C79e1dDAB878to: DigitalToken.name()data: 0x06f...dde03
+
+creation of DigitalTokenSaleDeployer pending...
+
+https://ropsten.etherscan.io/tx/0xc08d8a93f2f63f9c3704ad0068de84500016c34d9de6e970999b0726d27cf0ff
+ 
+ [block:9806411 txIndex:27] from: 0x06A...AB878to: DigitalTokenSaleDeployer.(constructor)value: 0 weidata: 0x608...00000logs: 3hash: 0xc08...cf0ff
+
+call to DigitalTokenSaleDeployer.token_sale_address
+ 
+CALL
+ [call] from: 0x06A16FE19aE657ec9b862a298995C79e1dDAB878to: DigitalTokenSaleDeployer.token_sale_address()data: 0xfdd...e9847
+
+call to DigitalTokenSaleDeployer.token_address
+ 
+CALL
+ [call] from: 0x06A16FE19aE657ec9b862a298995C79e1dDAB878to: DigitalTokenSaleDeployer.token_address()data: 0x8c8...e8fee
+
+call to DigitalTokenSaleDeployer.token_sale_address
+ 
+CALL
+ [call] from: 0x06A16FE19aE657ec9b862a298995C79e1dDAB878to: DigitalTokenSaleDeployer.token_sale_address()data: 0xfdd...e9847
+
+call to DigitalTokenSaleDeployer.token_address
+ 
+CALL
+ [call] from: 0x06A16FE19aE657ec9b862a298995C79e1dDAB878to: DigitalTokenSaleDeployer.token_address()data: 0x8c8...e8fee
+
+call to DigitalTokenSale.weiRaised
+ 
+CALL
+ [call] from: 0x06A16FE19aE657ec9b862a298995C79e1dDAB878to: DigitalTokenSale.weiRaised()data: 0x404...2b66f
+
+call to DigitalTokenSale.weiRaised
+ 
+CALL
+ [call] from: 0x06A16FE19aE657ec9b862a298995C79e1dDAB878to: DigitalTokenSale.weiRaised()data: 0x404...2b66f
+
+call to DigitalTokenSale.wallet
+ 
+CALL
+ [call] from: 0x06A16FE19aE657ec9b862a298995C79e1dDAB878to: DigitalTokenSale.wallet()data: 0x521...eb273
+
+call to DigitalTokenSale.token
+ 
+CALL
+ [call] from: 0x06A16FE19aE657ec9b862a298995C79e1dDAB878to: DigitalTokenSale.token()data: 0xfc0...c546a
+
+call to DigitalTokenSale.rate
+ 
+CALL
+ [call] from: 0x06A16FE19aE657ec9b862a298995C79e1dDAB878to: DigitalTokenSale.rate()data: 0x2c4...e722e
+transact to DigitalTokenSale.buyTokens pending ...
+transact to DigitalTokenSale.buyTokens errored: [object Object]
+creation of EquityCertificateCreator pending...
+creation of EquityCertificateCreator errored: execution reverted
+creation of EquityCertificateCreator pending...
+
+https://ropsten.etherscan.io/tx/0xd9d3e4846658fae796465fda9c8b0fc75609cbf0cc42436c5daa03a53d440ddf
+ 
+ [block:9806507 txIndex:25] from: 0x06A...AB878to: EquityCertificateCreator.(constructor)value: 0 weidata: 0x608...00000logs: 2hash: 0xd9d...40ddf
+ status	true Transaction mined and execution succeed
+ transaction hash	0xd9d3e4846658fae796465fda9c8b0fc75609cbf0cc42436c5daa03a53d440ddf 
+ from	0x06A16FE19aE657ec9b862a298995C79e1dDAB878 
+ to	EquityCertificateCreator.(constructor) 
+ gas	2030409 gas 
+ transaction cost	2030409 gas 
+ hash	0xd9d3e4846658fae796465fda9c8b0fc75609cbf0cc42436c5daa03a53d440ddf 
+ input	0x608...00000 
+ decoded input	{ "address _owner": "0x950A17ba3C60658114AF43C4a0839669b673B37C", "string _name": "0x06A16FE19aE657ec9b862a298995C79e1dDAB878", "string _symbol": "DIGITAL" } 
+ decoded output	 - 
+ logs	[ { "from": "0x7655F13a47600D9BC68bb3f3E128c3ad8ccf6D47", "topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0", "event": "OwnershipTransferred", "args": { "0": "0x0000000000000000000000000000000000000000", "1": "0x06A16FE19aE657ec9b862a298995C79e1dDAB878", "previousOwner": "0x0000000000000000000000000000000000000000", "newOwner": "0x06A16FE19aE657ec9b862a298995C79e1dDAB878" } }, { "from": "0x7655F13a47600D9BC68bb3f3E128c3ad8ccf6D47", "topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0", "event": "OwnershipTransferred", "args": { "0": "0x06A16FE19aE657ec9b862a298995C79e1dDAB878", "1": "0x950A17ba3C60658114AF43C4a0839669b673B37C", "previousOwner": "0x06A16FE19aE657ec9b862a298995C79e1dDAB878", "newOwner": "0x950A17ba3C60658114AF43C4a0839669b673B37C" } } ]  
+ value	0 wei 
+
+call to EquityCertificateCreator.totalSupply
+ 
+CALL
+ [call] from: 0x06A16FE19aE657ec9b862a298995C79e1dDAB878to: EquityCertificateCreator.totalSupply()data: 0x181...60ddd
+
+call to EquityCertificateCreator.symbol
+ 
+CALL
+ [call] from: 0x06A16FE19aE657ec9b862a298995C79e1dDAB878to: EquityCertificateCreator.symbol()data: 0x95d...89b41
+
+call to EquityCertificateCreator.owner
+
+CALL
+ [call] from: 0x06A16FE19aE657ec9b862a298995C79e1dDAB878to: EquityCertificateCreator.owner()data: 0x8da...5cb5b
