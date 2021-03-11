@@ -81,7 +81,7 @@ The `DigitalTokenSale` contract is set as a minter and then set to renounce the 
 
 </br>
 
-## **Contracts Deployed**
+## **Smart Contracts Deployment**
 
 ### **Ganache Accounts Used for Owner/Investor** 
 
@@ -108,7 +108,7 @@ The `DigitalTokenSale` contract is set as a minter and then set to renounce the 
 ![](Images/Step9f.PNG)
 <br>
 
-## **Conclusion**
+## **Discussion**
 The pros for using blockchain technology and smart contracts increases the private equity firm's access to raise capital and provides investors with direct access to purchase equity in the firm.  
 
 The cons identified during the project are:
@@ -119,7 +119,7 @@ The cons identified during the project are:
 
 <br>
 
-## **Future Work**
+## **Post-Mortem**
 If more time was available, the group could explore adding machine learning models into the project as large amounts of data can be analyzed better using machine learning algorithms.  We could also further develop our contracts to fully utilize IPFS for storing data and certificates. 
 
 <br>
